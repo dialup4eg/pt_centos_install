@@ -1,5 +1,6 @@
 yum -y install epel-release && yum -y update
 yum -y install java-1.8.0-openjdk-headless
+curl -sL https://rpm.nodesource.com/setup_10.x | bash -
 yum -y install nodejs
 yum -y install unzip
 yum -y install mc
